@@ -1,0 +1,62 @@
+{
+    "_shards": {
+        "failed": 0,
+        "successful": 5,
+        "total": 5
+    },
+    "aggregations": {
+        "all_counties": {
+            "buckets": [
+                {
+                    "doc_count": 3018,
+                    "key": "062"
+                },
+                {
+                    "doc_count": 2605,
+                    "key": "080"
+                },
+                {
+                    "doc_count": 2522,
+                    "key": "057"
+                },
+                {
+                    "doc_count": 2499,
+                    "key": "002"
+                },
+                {
+                    "doc_count": 2382,
+                    "key": "076"
+                },
+                {
+                    "doc_count": 2253,
+                    "key": "014"
+                },
+                {
+                    "doc_count": 2244,
+                    "key": "021"
+                },
+                {
+                    "doc_count": 2244,
+                    "key": "059"
+                },
+                {
+                    "doc_count": 2107,
+                    "key": "027"
+                },
+                {
+                    "doc_count": 2094,
+                    "key": "060"
+                }
+            ],
+            "doc_count_error_upper_bound": 1126,
+            "sum_other_doc_count": 99147
+        }
+    },
+    "hits": {
+        "hits": [],
+        "max_score": 0.0,
+        "total": 123115
+    },
+    "timed_out": false,
+    "took": 149
+}
